@@ -20,7 +20,7 @@ const members = [
   {
     name: "Shri Pradeep Gangadhar Dhole",
     role: "Vice President",
-    photo: "/images/Member2.jpg",
+    photo: "",
     facebook: "https://www.facebook.com/meena.joshi",
     instagram: "https://www.instagram.com/meena.joshi",
     phone: "+911234567892",
@@ -28,7 +28,7 @@ const members = [
   {
     name: "Shri Nishikant Vaman Kolte",
     role: "Secretary",
-    photo: "/images/Member3.jpg",
+    photo: "",
     facebook: "https://www.facebook.com/vijay.deshmukh",
     instagram: "https://www.instagram.com/vijay.deshmukh",
     phone: "+9373410003",
@@ -36,7 +36,7 @@ const members = [
   {
     name: "Adv. Mahesh Sudhakar Chaudhari",
     role: "Joint Secretary",
-    photo: "/images/Member1.jpg",
+    photo: "",
     facebook: "https://www.facebook.com/makarand.goralkar",
     instagram: "https://www.instagram.com/makarand.goralkar",
     phone: "+911234567894",
@@ -44,7 +44,7 @@ const members = [
   {
     name: "Shri Sachin Ramlal Pardeshi",
     role: "Treasurer",
-    photo: "/images/Member2.jpg",
+    photo: "",
     facebook: "https://www.facebook.com/shri.mak",
     instagram: "https://www.instagram.com/shri.mak",
     phone: "+911234567895",
@@ -52,7 +52,7 @@ const members = [
   {
     name: "Shri Jagdish Vasudev Chaudhari",
     role: "Member",
-    photo: "/images/Member3.jpg",
+    photo: "",
     facebook: "https://www.facebook.com/sunita.kulkarni",
     instagram: "https://www.instagram.com/sunita.kulkarni",
     phone: "+911234567896",
