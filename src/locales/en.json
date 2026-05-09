@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "Shri Chaitanya Navnath Seva Trust": "Shri Chaitanya Navnath Seva Trust Gorakshadham, Bhusawal",
+    "home": "Home",
+    "about": "About Us",
+    "committee": "Committee",
+    "events": "Events",
+    "gallery": "Gallery",
+    "donate": "Donate",
+    "contact": "Contact Us"
+  },
+
+  "home": {
+    "welcome": "Welcome to Navnath Temple",
+    "description": "Shri Chaitanya Navnath Temple (Varangaon Road) Bhusawal. A holy place of peace, devotion and blessings. The temple is developing with the grace of Shri Siddhnath Maharaj.",
+    "timings": "Temple Timings",
+    "time1": "6:00 AM - 12:00 PM",
+    "time2": "6:00 PM - 9:00 PM",
+    "liveDarshan": "Live Darshan",
+    "submit": "Donate Now",
+    "temple highlights": "Temple Highlights",
+    "spiritual peace": "Spiritual Peace",
+    "p": "Experience divine peace and blessings at Navnath Temple.",
+    "daily aarti": "Daily Aarti",
+    "p1": "Join morning and evening aarti with devotion.",
+    "festivals": "Festivals",
+    "p2": "Celebrate Navratri, Diwali & other events grandly."
+  },
+
+  "about": {
+    "title": "About Navnath Temple",
+    "description": "Navnath Temple is a sacred spiritual place dedicated to the nine Nath saints.",
+    "shri": "Shri Chaitanya Navnath Temple Gorakshadham, Bhusawal",
+    "peace": "Peace • Devotion • Service • Spirituality",
+    "years": "Years of tradition",
+    "bhakta": "Bhakta Parivar",
+    "annual": "Annual event",
+    "temple": "Temple Journey",
+    "inspiration": "The temple was established under the inspiration of Venerable Shri Siddhnath Maharaj.",
+    "beginning": "Beginning of religious and cultural programs.",
+    "expansion": "Expansion of the temple and new facilities available for devotees.",
+    "message": "Guru's message",
+    "devotion": "“Devotion is true power. Service is the highest practice.”",
+    "venerable": "— Venerable Shri Siddhanath Maharaj"
+  },
+
+  "committee": {
+    "title": "Temple Committee Members",
+    "president": "President",
+    "secretary": "Secretary",
+    "treasurer": "Treasurer",
+    "vice President": "Vice President",
+    "member": "Member"
+  },
+
+  "events": {
+    "title": "Temple Events",
+    "upcoming": "Upcoming Events",
+    "darshan": "Darshan Timings",
+    "session": "Session",
+    "time": "Time",
+    "morningtime": "5:00 AM - 11:00 AM",
+    "afternoontime": "12:00 PM - 2:00 PM",
+    "eveningtime": "4:00 PM - 8:00 PM",
+    "nighttime": "9:00 PM - 10:30 PM",
+    "morning": "Morning Darshan",
+    "afternoon": "Afternoon Darshan",
+    "evening": "Evening Darshan",
+    "night": "Night Darshan",
+    "navratri": "Navratri Festival",
+    "date": "Date",
+    "date1": "2nd Oct - 10th Oct 2025",
+    "date2": "11th Oct 2025",
+    "date3": "20th Oct 2025",
+    "special": "Special poojas, aarti, and bhajans.",
+    "dussehra": "Dussehra Celebration",
+    "grand": "Grand celebration with cultural programs.",
+    "diwali": "Diwali Aarti",
+    "ceremony": "Special evening aarti with lighting ceremony.",
+    "parayan": "Parayan information",
+    "gurucharitra": "Shri Gurucharitra Parayan (7 days)",
+    "navnathbhaktisar": "Navnath Bhaktisara Parayan (9 Days)",
+    "download": "Download"
+  },
+
+  "gallery": {
+    "title": "Temple Gallery"
+  },
+
+  "donate": {
+    "title": "Donate for a Divine Cause",
+    "mr": "Mr.",
+    "mrs": "Mrs.",
+    "miss": "Miss.",
+    "title1": "Title",
+    "name": "Name",
+    "mobile": "Mobile",
+    "email": "Email",
+    "donation for": "Donation For",
+    "abhishek": "Abhishek",
+    "annadan": "Annadan Fund",
+    "building": "Building Fund",
+    "education": "Education Fund",
+    "general donation": "General Donation",
+    "amount": "Amount",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "pincode": "Pincode",
+    "message": "Message",
+    "submit": "Donate Now",
+    "qr scan & donate": "QR Scan & Donate",
+    "click qr to pay via upi apps.": "Click QR to pay via UPI apps."
+  },
+
+  "contact": {
+    "temple":"Temple",
+    "name":"Name",
+    "message":"Message",
+    "title": "Contact Us",
+    "sendMessage": "Send Message",
+    "location": "Location",
+    "phone": "Phone",
+    "email": "Email"
+  },
+
+  "footer": {
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  }
+}

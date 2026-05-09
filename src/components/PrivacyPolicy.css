@@ -1,0 +1,58 @@
+.policy-container {
+  max-width: 900px;
+  margin: 120px auto 60px;
+  padding: 35px;
+  background: #fffaf2;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  line-height: 1.8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.policy-container h1 {
+  text-align: center;
+  color: #b76e00;
+  margin-bottom: 25px;
+  font-size: 2.2rem;
+}
+
+.policy-container h3 {
+  color: #d79922;
+  margin-top: 25px;
+  font-size: 1.2rem;
+}
+
+.policy-container p {
+  margin: 10px 0;
+  font-size: 0.96rem;
+  color: #333;
+}
+
+.policy-container ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.policy-container li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.last-updated {
+  margin-top: 30px;
+  font-size: 0.85rem;
+  color: #777;
+  text-align: right;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .policy-container {
+    margin: 100px 15px 40px;
+    padding: 20px;
+  }
+
+  .policy-container h1 {
+    font-size: 1.6rem;
+  }
+}

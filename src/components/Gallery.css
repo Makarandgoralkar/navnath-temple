@@ -1,0 +1,143 @@
+/* Gallery Section */
+.gallery-section {
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #fff8f0, #fff3e0);
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Title */
+.gallery-title {
+  font-size: 2.5rem;
+  color: #b76e00;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.gallery-title::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #b76e00;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Grid Layout */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Image Card */
+.gallery-item {
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* Images */
+.gallery-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Modal Background */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Modal Image */
+.modal-img {
+  max-width: 90%;
+  max-height: 85%;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.4);
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .gallery-title {
+    font-size: 2rem;
+  }
+
+  .gallery-img {
+    height: 200px;
+  }
+}
+
+/* Mobile */
+/* Mobile Grid View */
+@media (max-width: 600px) {
+
+  .gallery-section {
+    padding: 50px 10px;
+  }
+
+  .gallery-title {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);   /* 3 images per row */
+    gap: 8px;
+  }
+
+  .gallery-img {
+    height: 100px;     /* smaller grid style */
+    border-radius: 8px;
+  }
+
+  .gallery-item {
+    border-radius: 8px;
+  }
+
+  .close {
+    font-size: 28px;
+    top: 15px;
+    right: 20px;
+  }
+}

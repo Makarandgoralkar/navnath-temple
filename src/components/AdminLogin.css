@@ -1,0 +1,85 @@
+.admin-login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff3e0;
+}
+
+.admin-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.admin-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #b76e00;
+}
+
+.admin-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.admin-card input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.admin-card button {
+  background: #b76e00;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.admin-card button:hover {
+  background: #d79922;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.password-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 60px;
+}
+
+.toggle-btn {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #b76e00;
+  user-select: none;
+}
+
+.forgot-password {
+  font-size: 12px;
+  color: #b76e00;
+  text-align: right;
+  cursor: pointer;
+  margin-top: -8px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}

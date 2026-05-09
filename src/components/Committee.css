@@ -1,0 +1,254 @@
+/* ===== MAIN CONTAINER ===== */
+
+.committee-container {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #fff8f0;
+  position: relative;
+}
+
+/* ===== TITLE ===== */
+
+.committee-title {
+  font-size: 2.5rem;
+  color: #b76e00;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+/* ===== GRID ===== */
+
+.committee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ===== CARD ===== */
+
+.member-card {
+  width: 100%;
+  height: 350px;
+  perspective: 1000px;
+
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+
+.member-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.member-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* ===== FRONT & BACK ===== */
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background: #fffaf3;
+  border-radius: 15px;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+
+  backface-visibility: hidden;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.4s ease;
+}
+
+/* ===== FRONT HOVER EFFECT ===== */
+
+.member-card:hover .card-front {
+  box-shadow: 0 0 25px rgba(183,110,0,0.6);
+}
+
+/* ===== BACK SIDE ===== */
+
+.card-back {
+  transform: rotateY(180deg);
+
+  background: linear-gradient(
+    135deg,
+    #b76e00,
+    #ffd54f
+  );
+
+  color: white;
+}
+
+/* ===== PROFILE IMAGE ===== */
+
+.card-front img {
+  width: 130px;
+  height: 130px;
+
+  object-fit: cover;
+  border-radius: 50%;
+
+  margin-bottom: 15px;
+
+  border: 4px solid #b76e00;
+}
+
+/* ===== DEFAULT PROFILE ICON ===== */
+
+.default-profile-icon {
+  width: 130px;
+  height: 130px;
+
+  border-radius: 50%;
+
+  border: 4px solid #b76e00;
+
+  background: #fff3e0;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 15px;
+
+  font-size: 90px;
+  color: #b76e00;
+}
+
+/* ===== MEMBER NAME ===== */
+
+.card-front h3,
+.card-back h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: inherit;
+}
+
+/* ===== ROLE BADGE ===== */
+
+.role-badge {
+  margin-top: 10px;
+
+  padding: 6px 14px;
+
+  border-radius: 20px;
+
+  font-size: 0.85rem;
+
+  background: #eee;
+  color: #333;
+
+  font-weight: bold;
+}
+
+/* ===== PRESIDENT BADGE ===== */
+
+.role-badge.president {
+  background: linear-gradient(45deg, gold, orange);
+
+  color: #5a3e00;
+
+  box-shadow: 0 0 10px gold;
+}
+
+/* ===== SOCIAL ICONS ===== */
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+
+  font-size: 1.4rem;
+
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: white;
+
+  transition:
+    transform 0.3s,
+    color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffd54f;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+
+  .committee-container {
+    padding: 60px 15px;
+  }
+
+  .committee-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .committee-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .member-card {
+    height: 280px;
+  }
+
+  .card-front,
+  .card-back {
+    padding: 12px;
+  }
+
+  .card-front img,
+  .default-profile-icon {
+    width: 85px;
+    height: 85px;
+  }
+
+  .default-profile-icon {
+    font-size: 55px;
+  }
+
+  .card-front h3,
+  .card-back h3 {
+    font-size: 0.8rem;
+  }
+
+  .role-badge {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+
+  .social-icons {
+    font-size: 1rem;
+    gap: 10px;
+  }
+
+  .card-back p {
+    font-size: 0.75rem;
+  }
+}

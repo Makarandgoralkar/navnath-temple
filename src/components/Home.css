@@ -1,0 +1,307 @@
+/* ===== HOME PAGE ===== */
+body {
+  background: #f9f9f9 url("https://www.transparenttextures.com/patterns/cream-paper.png");
+}
+
+.home {
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ===== HERO SLIDER ===== */
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  overflow: hidden;
+}
+
+.hero-slide {
+  position: absolute;
+  top: 0;
+  left: 0;              /* ✅ ADD THIS */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.hero-slide.active {
+  opacity: 1;
+}
+
+/* ===== Overlay Content ===== */
+
+/* ===== HERO CONTENT ===== */
+
+.hero-content {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  max-width: 700px;
+  width: 90%;
+  z-index: 2;
+
+  /* REMOVE DARK BOX */
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  backdrop-filter: none;
+
+  text-align: center;
+}
+
+/* HEADING */
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+  color: #ffd54f;
+  text-shadow:
+    2px 2px 10px rgba(0,0,0,0.8),
+    0 0 20px rgba(0,0,0,0.6);
+}
+
+/* DESCRIPTION */
+.hero-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-shadow:
+    2px 2px 10px rgba(0,0,0,0.8);
+  max-width: 650px;
+  margin: auto;
+}
+
+@keyframes slideFade {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Slide Buttons ===== */
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+.slide-btn:hover {
+  background: #b76e00;
+}
+
+/* ===== Dots Indicator ===== */
+
+.dots {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin: 0 6px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dot.active {
+  background-color: #ffd54f;
+}
+
+/* ===== Temple Timing Section ===== */
+
+.timing-section {
+  margin: 3rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.timing-section li {
+  background: white;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 8px;
+  width: 70%;
+}
+
+.timing-section h2 {
+  color: #b76e00;
+  margin-bottom: 1.2rem;
+}
+
+.timing-section ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+/* ===== Live Darshan ===== */
+
+.live-darshan {
+  margin-top: 2rem;
+}
+
+.live-darshan iframe {
+  border-radius: 12px;
+}
+
+/* ===== Floating Live Darshan Button ===== */
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(0,0,0,0.75) 5%,
+      rgba(0,0,0,0.35) 40%,
+      rgba(0,0,0,0.15) 100%
+    );
+
+  z-index: 1;
+}
+
+.hero-slide {
+  filter: brightness(0.9);
+}
+
+.hero-content {
+  z-index: 2;
+}
+
+.hero-buttons {
+  margin-top: 15px;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: #ff9800;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #ffc107;
+  color: black;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: black;
+}
+
+.highlights {
+  padding: 3rem 0;
+  background: #fafafa;
+}
+
+.highlights h2 {
+  margin-bottom: 2rem;
+  color: #b76e00;
+}
+
+.highlight-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 260px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+
+  .hero {
+    height: 75vh;
+  }
+
+  .hero-content {
+    bottom: 55px;
+    width: 92%;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .slide-btn {
+    padding: 8px 12px;
+    font-size: 18px;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
+}
