@@ -236,61 +236,41 @@ Only authenticated administrators can access dashboard features.
 
 ## 📸 Screenshots
 
-*(Store all screenshots inside a `/screenshots` folder in the repository.)*
-
 ### 🏠 Home Page
 
-```md
-![Home](screenshots/home.png)
-```
+![Home](public/screenshots/home.png)
 
 ### 📖 About Us
 
-```md
 ![About](public/screenshots/about.png)
-```
 
 ### 👥 Committee Page
 
-```md
 ![Committee](public/screenshots/committee.png)
-```
 
 ### 📅 Events Page
 
-```md
 ![Events](public/screenshots/events.png)
-```
 
 ### 🖼️ Gallery Page
 
-```md
 ![Gallery](public/screenshots/gallery.png)
-```
 
 ### 💰 Donate Page
 
-```md
 ![Donate](public/screenshots/donate.png)
-```
 
 ### 📞 Contact Page
 
-```md
 ![Contact](public/screenshots/contact.png)
-```
 
 ### 🔐 Admin Login
 
-```md
 ![Admin Login](public/screenshots/admin-login.png)
-```
 
 ### 📊 Admin Dashboard
 
-```md
 ![Admin Dashboard](public/screenshots/admin-dashboard.png)
-```
 
 ---
 
