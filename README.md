@@ -247,49 +247,49 @@ Only authenticated administrators can access dashboard features.
 ### 📖 About Us
 
 ```md
-![About](screenshots/about.png)
+![About](public/screenshots/about.png)
 ```
 
 ### 👥 Committee Page
 
 ```md
-![Committee](screenshots/committee.png)
+![Committee](public/screenshots/committee.png)
 ```
 
 ### 📅 Events Page
 
 ```md
-![Events](screenshots/events.png)
+![Events](public/screenshots/events.png)
 ```
 
 ### 🖼️ Gallery Page
 
 ```md
-![Gallery](screenshots/gallery.png)
+![Gallery](public/screenshots/gallery.png)
 ```
 
 ### 💰 Donate Page
 
 ```md
-![Donate](screenshots/donate.png)
+![Donate](public/screenshots/donate.png)
 ```
 
 ### 📞 Contact Page
 
 ```md
-![Contact](screenshots/contact.png)
+![Contact](public/screenshots/contact.png)
 ```
 
 ### 🔐 Admin Login
 
 ```md
-![Admin Login](screenshots/admin-login.png)
+![Admin Login](public/screenshots/admin-login.png)
 ```
 
 ### 📊 Admin Dashboard
 
 ```md
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard](public/screenshots/admin-dashboard.png)
 ```
 
 ---
