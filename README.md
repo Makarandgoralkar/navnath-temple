@@ -1,70 +1,317 @@
-# Getting Started with Create React App
+# 🛕 Shri Chaitanya Navnath Seva Trust Gorakshadham, Bhusawal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern Temple Management Website built using React.js and Firebase.
 
-## Available Scripts
+The platform provides information about the temple, committee members, events, gallery, donations, contact details, and an admin dashboard for content management.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌐 Live Application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Website
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://navnath-temple.web.app/
 
-### `npm test`
+### Admin Login
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://navnath-temple.web.app/admin-login
 
-### `npm run build`
+### GitHub Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://github.com/Makarandgoralkar/navnath-temple
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✨ Features
 
-### `npm run eject`
+### 🏠 Home Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Hero Slider
+- Temple Introduction
+- Live Darshan Button
+- Donation CTA
+- Fully Responsive Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📖 About Us
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Temple History
+- Temple Journey Timeline
+- Temple Statistics & Milestones
+- Mission & Vision
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 👥 Committee
 
-## Learn More
+- Committee Members Showcase
+- Designation Details
+- Member Profiles
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 📅 Events
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Darshan Timings
+- Upcoming Events
+- Festival Information
+- Religious Programs
 
-### Code Splitting
+### 🖼️ Gallery
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Temple Photos
+- Event Photos
+- Responsive Image Gallery
+- Lightbox Preview
 
-### Analyzing the Bundle Size
+### 💰 Donate
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Online Donation Form
+- Multiple Donation Categories
+- Donor Information Collection
 
-### Making a Progressive Web App
+### 📞 Contact Us
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Temple Contact Information
+- Contact Form
+- Location Details
 
-### Advanced Configuration
+### 🔐 Admin Dashboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Secure Admin Authentication
+- Manage Gallery Images
+- Manage Temple Content
+- View Donation & Contact Submissions
+- Protected Admin Routes
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🛠️ Tech Stack
 
-### `npm run build` fails to minify
+### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React.js
+- React Router DOM
+- CSS3
+- React Icons
+
+### Backend
+
+- Firebase Authentication
+- Firebase Realtime Database
+
+### Hosting
+
+- Firebase Hosting
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Home.js
+│   ├── About.js
+│   ├── Committee.js
+│   ├── Events.js
+│   ├── Gallery.js
+│   ├── Donate.js
+│   ├── Contact.js
+│   ├── Navbar.js
+│   ├── Footer.js
+│   ├── PrivacyPolicy.js
+│   ├── TermsConditions.js
+│   ├── AdminLogin.js
+│   ├── AdminDashboard.js
+│   └── ProtectedRoute.js
+│
+├── firebase.js
+├── ScrollToTop.js
+├── App.js
+└── index.js
+```
+
+---
+
+## 🔗 Routes
+
+| Route | Description |
+|---------|-------------|
+| / | Home Page |
+| /about | About Temple |
+| /committee | Committee Members |
+| /events | Temple Events |
+| /gallery | Gallery |
+| /donate | Donation Page |
+| /contact | Contact Page |
+| /privacy-policy | Privacy Policy |
+| /terms-conditions | Terms & Conditions |
+| /admin-login | Admin Login |
+| /admin-dashboard | Admin Dashboard |
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Makarandgoralkar/navnath-temple.git
+```
+
+Move into the project directory:
+
+```bash
+cd navnath-temple
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project locally:
+
+```bash
+npm start
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 🚀 Build For Production
+
+```bash
+npm run build
+```
+
+---
+
+## ☁️ Firebase Deployment
+
+```bash
+npm run build
+firebase deploy
+```
+
+---
+
+## 🔒 Authentication
+
+Admin Dashboard is protected using Firebase Authentication.
+
+Protected Route:
+
+```text
+/admin-dashboard
+```
+
+Only authenticated administrators can access dashboard features.
+
+---
+
+## 📜 Legal Pages
+
+- Privacy Policy
+- Terms & Conditions
+
+---
+
+## 📞 Contact
+
+### Shri Chaitanya Navnath Seva Trust Gorakshadham
+
+📍 Gorakshadham, Varangaon Road, Bhusawal, Dist. Jalgaon, Maharashtra, India
+
+📞 +91 9284683257
+
+📧 info@navnathtemple.org
+
+🌐 https://navnath-temple.web.app/
+
+---
+
+## 📸 Screenshots
+
+*(Store all screenshots inside a `/screenshots` folder in the repository.)*
+
+### 🏠 Home Page
+
+```md
+![Home](screenshots/home.png)
+```
+
+### 📖 About Us
+
+```md
+![About](screenshots/about.png)
+```
+
+### 👥 Committee Page
+
+```md
+![Committee](screenshots/committee.png)
+```
+
+### 📅 Events Page
+
+```md
+![Events](screenshots/events.png)
+```
+
+### 🖼️ Gallery Page
+
+```md
+![Gallery](screenshots/gallery.png)
+```
+
+### 💰 Donate Page
+
+```md
+![Donate](screenshots/donate.png)
+```
+
+### 📞 Contact Page
+
+```md
+![Contact](screenshots/contact.png)
+```
+
+### 🔐 Admin Login
+
+```md
+![Admin Login](screenshots/admin-login.png)
+```
+
+### 📊 Admin Dashboard
+
+```md
+![Admin Dashboard](screenshots/admin-dashboard.png)
+```
+
+---
+
+## 👨‍💻 Developer
+
+### Makarand Goralkar
+
+Full Stack Developer
+
+📧 makarandgoralkar27@gmail.com
+
+GitHub:
+https://github.com/Makarandgoralkar
+
+LinkedIn:
+https://www.linkedin.com/in/makarand-goralkar-505788258/
+
+---
+
+## 📄 License
+
+This project is developed for Shri Chaitanya Navnath Seva Trust Gorakshadham, Bhusawal.
+
+© 2026 Shri Chaitanya Navnath Seva Trust | All Rights Reserved.
